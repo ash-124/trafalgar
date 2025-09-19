@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trafalgar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -39,7 +41,7 @@
                 healthcare, accessible on mobile and online <br>
                 for everyone
             </p>
-            <button class="btn">Consult Today</button>
+            <button class="btn-hero">Consult Today</button>
         </div>
         <div class="hero-img-container">
             <img class="hero-img" src="./resources/illustration.png" alt="">
@@ -54,13 +56,7 @@
     <section>
         <div class="serviceSection">
             <h2 class="title">Our Services</h2>
-            <hr style="
-            width: 56px;
-            height: 2px;
-            background-color: black;
-            border-radius: 20px;
-            font-weight: 800;
-            ">
+            <hr class="horizontalLine">
             <p style="max-width: 950px;" class="description">
                 We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo
                 treatment with our highly qualified doctors you can consult with us which type of service is suitable
@@ -126,44 +122,90 @@
                 </p>
             </div>
         </div>
+        <div style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        "><button style="margin-top: 65px;" class="btn">Learn More</button></div>
+
     </section>
     <!-- extra sections -->
-    <section id="hero-container">
-        <div class="hero-img-container">
+    <section class="section-container">
+        <div class="hero-text-container">
+            <h2>
+                Leading healthcare <br> providers
+            </h2>
+            <hr class="horizontalLine">
+            <p>
+                Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone.
+                <br>
+                To us, it’s not just work. We take pride
+                in the solutions we deliver
+            </p>
+            <button class="btn">Consult Today</button>
+        </div>
+        <div class="section-img-container">
+            <img src="./resources/trafalgar-illustration sec03 1.png" alt="">
+        </div>
+    </section>
+    <section class="section-container">
+        <div class="section-img-container">
             <img class="hero-img" src="./resources/trafalgar-illustration sec02 1.png" alt="">
         </div>
         <div class="hero-text-container">
             <h2>
-                Virtual healthcare <br>
-                for you
+                Download our <br>
+                mobile apps
             </h2>
+            <hr class="horizontalLine">
             <p>
-                Trafalgar provides progressive, and affordable <br>
-                healthcare, accessible on mobile and online <br>
-                for everyone
+                Our dedicated patient engagement app and
+                web portal allow <br> you to access information instantaneously (no tedeous form, <br> long calls,
+                or administrative hassle) and securely
             </p>
-            <button class="btn">Consult Today</button>
+            <button style="display: flex; align-items: center; justify-content: center; gap: 5px;" class="btn"> <span>
+                    Download
+                    <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/download--v1.png"
+                        alt="download--v1" />
+                </span>
+            </button>
         </div>
+
+    </section>
+    <!-- testimonials section -->
+    <section class="testimonial">
         
-    </section>
-<!-- needs to work -->
-    <section id="hero-container">
-        <div class="hero-text-container">
-            <h2>
-                Virtual healthcare <br>
-                for you
-            </h2>
-            <p>
-                Trafalgar provides progressive, and affordable <br>
-                healthcare, accessible on mobile and online <br>
-                for everyone
-            </p>
-            <button class="btn">Consult Today</button>
+        <h2>What our customer are saying</h2>
+        <div class="line"></div>
+        <div class="testimonial-card">
+           
+            <div class="testimonial-left">
+                <img src="https://via.placeholder.com/80" alt="Customer">
+                <h3>Edward Newgate</h3>
+                <p>Founder Circle</p>
+            </div>
+            <div class="testimonial-right">
+                <p>
+                    “Our dedicated patient engagement app and web portal allow you to access
+                    information instantaneously (no tedious form, long calls, or administrative hassle) and securely”
+                </p>
+            </div>
         </div>
-        <div class="hero-img-container">
-            <img class="hero-img" src="./resources/trafalgar-illustration sec03 1.png" alt="">
-        </div>
+
+       
     </section>
+     <!-- Navigation -->
+     <div class="testimonial-nav">
+        <i class="fa-solid fa-arrow-left"></i>
+        <div class="dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
 
 
     <!-- Footer -->
